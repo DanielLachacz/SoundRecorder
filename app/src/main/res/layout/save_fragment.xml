@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layout_width="360dp"
+    android:layout_height="250dp"
+    android:padding="5dp"
+    android:background="@android:color/transparent">
+
+    <Button
+        android:id="@+id/cancel_button"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="Cancel"
+        android:background="@android:color/transparent"
+        android:clickable="true"
+        android:focusable="true"/>
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginBottom="0dp"
+        android:background="@android:color/transparent"
+        android:text="Save"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:clickable="true"
+        android:focusable="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="0dp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="4dp"
+        android:text="Change the name of the recording"
+        android:gravity="center"
+        android:textSize="17sp"
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:id="@+id/name_edit_text"
+        android:layout_width="290dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="104dp"
+        android:layout_marginBottom="100dp"
+        android:background="@color/lightGrey"
+        android:text="22.06.2019"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/recording_text_view"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:text="file.mp4"
+                android:textSize="18sp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginBottom="7dp"/>
+
+            <SeekBar
+                android:id="@+id/seek_bar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"/>
+
+            <TextView
+                android:id="@+id/progress_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="80dp"
+                android:text="00:00"
+                android:textSize="17sp" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/playback_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="90dp"
+                android:layout_marginBottom="10dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/ic_play_arrow_black_24dp"
+                android:clickable="true"
+                android:elevation="12dp"/>
+
+        </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
