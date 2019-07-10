@@ -1,4 +1,5 @@
 # SoundRecorder. 
+Simple recorder of the sounds/dictaphone. I used here MVVM pattern, and Android JetPack package (ViewModel, Room).
 
 ![Zrzut ekranu 2019-07-10 o 21 53 56](https://user-images.githubusercontent.com/32907234/61000551-f806ec00-a35d-11e9-9d4e-6f596a55d3e0.png)
 ![Zrzut ekranu 2019-07-10 o 21 54 11](https://user-images.githubusercontent.com/32907234/61000554-f9381900-a35d-11e9-9ebf-0ce3f8e5146d.png)
